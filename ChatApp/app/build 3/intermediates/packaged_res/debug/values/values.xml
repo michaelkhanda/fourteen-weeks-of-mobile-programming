@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="error">#B00020</color>
+    <color name="ic_launcher_background">#DC3D3D</color>
+    <color name="icon_background">#20FFFFFF</color>
+    <color name="input_background">#ECECEC</color>
+    <color name="primary">#1C2E46</color>
+    <color name="primary_dark">#142232</color>
+    <color name="primary_text">#212121</color>
+    <color name="received_message_background">#090D16</color>
+    <color name="secondary_text">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <string name="add_image">Add Image</string>
+    <string name="app_name">Neo Chat</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="default_web_client_id" translatable="false">923539455711-ndqnojc3q2taitc3ntdcop6sp49fkft7.apps.googleusercontent.com</string>
+    <string name="email">Email</string>
+    <string name="gcm_defaultSenderId" translatable="false">923539455711</string>
+    <string name="google_api_key" translatable="false">AIzaSyBoLf2wi5Jznam4RVj71FjvwRzzMydFXaI</string>
+    <string name="google_app_id" translatable="false">1:923539455711:android:23256bd2a00a9dbecdf36a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBoLf2wi5Jznam4RVj71FjvwRzzMydFXaI</string>
+    <string name="google_storage_bucket" translatable="false">chatapp-81f24.appspot.com</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="name">Name</string>
+    <string name="online">Online</string>
+    <string name="password">Password</string>
+    <string name="project_id" translatable="false">chatapp-81f24</string>
+    <string name="select_user">Select User</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <style name="Theme.ChatApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/primary</item>
+
+    </style>
+</resources>

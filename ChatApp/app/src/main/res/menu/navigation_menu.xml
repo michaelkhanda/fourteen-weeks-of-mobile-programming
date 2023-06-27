@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/profile_settings">
+        <menu>
+            <item android:id="@+id/menuProfile"
+                android:icon="@drawable/profile2"
+                android:title="@string/profile"/>
+
+            <item android:id="@+id/menuChangePassword"
+                android:icon="@drawable/changepassword"
+                android:title="@string/change_password"/>
+
+            <item android:id="@+id/menuAddAccount"
+                android:icon="@drawable/addacc"
+                android:title="@string/add_account"/>
+
+        </menu>
+    </item>
+
+    <item android:title="@string/security_settings">
+        <menu>
+            <item android:id="@+id/menuFingerprint"
+                android:icon="@drawable/fingerprint2"
+                android:title="@string/fingerprint"/>
+
+            <item android:id="@+id/menuManageDevices"
+                android:icon="@drawable/managedevices"
+                android:title="@string/manage_devices"/>
+
+            <item android:id="@+id/menuLoginHistory"
+                android:icon="@drawable/loginhistory"
+                android:title="@string/login_history"/>
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/application_settings">
+        <menu>
+            <item android:id="@+id/menuInvite"
+                android:icon="@drawable/invite"
+                android:title="@string/invite_friends"/>
+
+
+            <item android:id="@+id/menuSupport"
+                android:icon="@drawable/support"
+                android:title="@string/get_support"/>
+
+            <item android:id="@+id/menuAboutNeoChat"
+                android:icon="@drawable/aboutus2"
+                android:title="@string/about_neo_chat"/>
+        </menu>
+    </item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>

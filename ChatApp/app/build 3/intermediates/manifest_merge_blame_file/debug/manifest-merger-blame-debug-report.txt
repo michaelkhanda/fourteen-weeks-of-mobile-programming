@@ -1,0 +1,258 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.chatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:25:5-77
+13-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:25:22-74
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:26:5-68
+14-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:26:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:5-82
+15-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:22-79
+16
+17    <application
+17-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:8:5-50:19
+18        android:allowBackup="true"
+18-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] /Users/michaelkhanda/.gradle/caches/transforms-3/102215101d21fdb02f0f27bbfd4ebd5d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:10:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:11:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:12:9-43
+24        android:label="@string/app_name"
+24-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:13:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:14:9-54
+26        android:supportsRtl="true"
+26-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:15:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.ChatApp" >
+28-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:16:9-45
+29        <activity
+29-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:18:9-21:58
+30            android:name="com.example.chatapp.activities.ChatActivity"
+30-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:19:13-52
+31            android:exported="false"
+31-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:20:13-37
+32            android:windowSoftInputMode="adjustResize" />
+32-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:21:13-55
+33        <activity
+33-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:22:9-24:40
+34            android:name="com.example.chatapp.activities.UsersActivity"
+34-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:23:13-53
+35            android:exported="false" />
+35-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:24:13-37
+36        <activity
+36-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:25:9-27:58
+37            android:name="com.example.chatapp.activities.SignUpActivity"
+37-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:26:13-54
+38            android:windowSoftInputMode="adjustResize" />
+38-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:27:13-55
+39        <activity
+39-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:28:9-37:20
+40            android:name="com.example.chatapp.activities.SignInActivity"
+40-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:29:13-54
+41            android:exported="true"
+41-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:30:13-36
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:31:13-55
+43            <intent-filter>
+43-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:32:13-36:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:33:17-69
+44-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:33:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:35:17-77
+46-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:35:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.chatapp.activities.MainActivity" />
+49-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:38:9-61
+49-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:38:19-58
+50
+51        <service
+51-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:40:9-46:19
+52            android:name="com.example.chatapp.firebase.MessagingService"
+52-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:41:13-54
+53            android:exported="false" >
+53-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:42:13-37
+54            <intent-filter>
+54-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:43:13-45:29
+55                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+55-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:44:17-78
+55-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:44:25-75
+56            </intent-filter>
+57        </service>
+58
+59        <receiver
+59-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:31:9-38:20
+60            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+60-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:32:13-78
+61            android:exported="true"
+61-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:33:13-36
+62            android:permission="com.google.android.c2dm.permission.SEND" >
+62-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:34:13-73
+63            <intent-filter>
+63-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:35:13-37:29
+64                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+64-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:36:17-81
+64-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:36:25-78
+65            </intent-filter>
+66        </receiver>
+67        <!--
+68             FirebaseMessagingService performs security checks at runtime,
+69             but set to not exported to explicitly avoid allowing another app to call it.
+70        -->
+71        <service
+71-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:44:9-51:19
+72            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+72-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:45:13-82
+73            android:directBootAware="true"
+73-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:46:13-43
+74            android:exported="false" >
+74-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:47:13-37
+75            <intent-filter android:priority="-500" >
+75-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:43:13-45:29
+76                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+76-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:44:17-78
+76-->/Users/michaelkhanda/Documents/FALL SEMESTER 2022/ChatApp/app/src/main/AndroidManifest.xml:44:25-75
+77            </intent-filter>
+78        </service>
+79        <service
+79-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:52:9-58:19
+80            android:name="com.google.firebase.components.ComponentDiscoveryService"
+80-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:53:13-84
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-common:20.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/dc7803597803a1ddfce933714cfd7209/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:54:13-37
+83            <meta-data
+83-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:55:13-57:85
+84                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+84-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:56:17-119
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-messaging:23.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/9416a2ec1fb8ad657fbf3e8510a29d33/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:57:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-firestore:24.4.0] /Users/michaelkhanda/.gradle/caches/transforms-3/493c3a94393fb2adec59600fc6179944/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:19:13-21:85
+87                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+87-->[com.google.firebase:firebase-firestore:24.4.0] /Users/michaelkhanda/.gradle/caches/transforms-3/493c3a94393fb2adec59600fc6179944/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-firestore:24.4.0] /Users/michaelkhanda/.gradle/caches/transforms-3/493c3a94393fb2adec59600fc6179944/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/michaelkhanda/.gradle/caches/transforms-3/250b9102fac678297fa8b704b8471e91/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+90                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+90-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/michaelkhanda/.gradle/caches/transforms-3/250b9102fac678297fa8b704b8471e91/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/michaelkhanda/.gradle/caches/transforms-3/250b9102fac678297fa8b704b8471e91/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-installations:17.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/367b9a5d09ec04448f6e5f563e6e5789/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+93                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+93-->[com.google.firebase:firebase-installations:17.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/367b9a5d09ec04448f6e5f563e6e5789/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-installations:17.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/367b9a5d09ec04448f6e5f563e6e5789/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+95        </service>
+96
+97        <activity
+97-->[com.google.android.gms:play-services-base:18.0.1] /Users/michaelkhanda/.gradle/caches/transforms-3/af70d03cddd8f74e660d4209bf266ed2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+98            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+98-->[com.google.android.gms:play-services-base:18.0.1] /Users/michaelkhanda/.gradle/caches/transforms-3/af70d03cddd8f74e660d4209bf266ed2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-base:18.0.1] /Users/michaelkhanda/.gradle/caches/transforms-3/af70d03cddd8f74e660d4209bf266ed2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+100-->[com.google.android.gms:play-services-base:18.0.1] /Users/michaelkhanda/.gradle/caches/transforms-3/af70d03cddd8f74e660d4209bf266ed2/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:20.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/dc7803597803a1ddfce933714cfd7209/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:20.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/dc7803597803a1ddfce933714cfd7209/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+104            android:authorities="com.example.chatapp.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:20.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/dc7803597803a1ddfce933714cfd7209/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/dc7803597803a1ddfce933714cfd7209/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:20.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/dc7803597803a1ddfce933714cfd7209/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:20.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/dc7803597803a1ddfce933714cfd7209/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+108
+109        <meta-data
+109-->[com.google.android.gms:play-services-basement:18.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/de6489bed9e6c347316284be579eccf0/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+110            android:name="com.google.android.gms.version"
+110-->[com.google.android.gms:play-services-basement:18.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/de6489bed9e6c347316284be579eccf0/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+111            android:value="@integer/google_play_services_version" />
+111-->[com.google.android.gms:play-services-basement:18.1.0] /Users/michaelkhanda/.gradle/caches/transforms-3/de6489bed9e6c347316284be579eccf0/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+112
+113        <provider
+113-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/043ebb08fd1605c8d26eee8895b0fedf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+114            android:name="androidx.startup.InitializationProvider"
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/043ebb08fd1605c8d26eee8895b0fedf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+115            android:authorities="com.example.chatapp.androidx-startup"
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/043ebb08fd1605c8d26eee8895b0fedf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+116            android:exported="false" >
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/043ebb08fd1605c8d26eee8895b0fedf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+117            <meta-data
+117-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/043ebb08fd1605c8d26eee8895b0fedf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+118-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/043ebb08fd1605c8d26eee8895b0fedf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+119                android:value="androidx.startup" />
+119-->[androidx.emoji2:emoji2:1.2.0] /Users/michaelkhanda/.gradle/caches/transforms-3/043ebb08fd1605c8d26eee8895b0fedf/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/michaelkhanda/.gradle/caches/transforms-3/89ff0e55e6ae9f2bfe5511814da6c859/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+121                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+121-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/michaelkhanda/.gradle/caches/transforms-3/89ff0e55e6ae9f2bfe5511814da6c859/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+122                android:value="androidx.startup" />
+122-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/michaelkhanda/.gradle/caches/transforms-3/89ff0e55e6ae9f2bfe5511814da6c859/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+123        </provider>
+124
+125        <service
+125-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/0a1c06cd9e3e34a800765dae9735ad6a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+126            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+126-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/0a1c06cd9e3e34a800765dae9735ad6a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+127            android:exported="false" >
+127-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/0a1c06cd9e3e34a800765dae9735ad6a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+128            <meta-data
+128-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/0a1c06cd9e3e34a800765dae9735ad6a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+129                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+129-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/0a1c06cd9e3e34a800765dae9735ad6a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+130                android:value="cct" />
+130-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/0a1c06cd9e3e34a800765dae9735ad6a/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+131        </service>
+132        <service
+132-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/27e86d06ebe4737f0a4589577b17cf57/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+133            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+133-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/27e86d06ebe4737f0a4589577b17cf57/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+134            android:exported="false"
+134-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/27e86d06ebe4737f0a4589577b17cf57/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+135            android:permission="android.permission.BIND_JOB_SERVICE" >
+135-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/27e86d06ebe4737f0a4589577b17cf57/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+136        </service>
+137
+138        <receiver
+138-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/27e86d06ebe4737f0a4589577b17cf57/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+139            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+139-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/27e86d06ebe4737f0a4589577b17cf57/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+140            android:exported="false" />
+140-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/michaelkhanda/.gradle/caches/transforms-3/27e86d06ebe4737f0a4589577b17cf57/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+141    </application>
+142
+143</manifest>

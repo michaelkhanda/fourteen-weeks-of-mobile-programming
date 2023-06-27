@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.chatapp-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-35:/layout/activity_sign_up.xml",
+        "source": "com.example.chatapp-main-38:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.chatapp-mergeDebugResources-35:/layout/activity_sign_in.xml",
+        "source": "com.example.chatapp-main-38:/layout/activity_sign_in.xml"
+    }
+]
